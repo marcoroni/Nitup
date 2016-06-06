@@ -1,0 +1,144 @@
+﻿.tekst
+{
+	margin-left: 100px;
+}
+
+/*.under-panel*/
+/*{*/
+/*visibility: hidden;*/
+/*}*/
+
+header
+{
+	height: auto;
+	background-color: black;
+}
+
+img.plaatje
+{
+	border-style:double;
+	border-width:6px;
+	border-color:#525564;
+}
+
+img.active {
+	border-color:orange !important;
+}
+
+li
+{
+	display : inline;
+	margin: 30px;
+}
+
+li div.children
+{
+	z-index: 100;
+}
+
+li div.children.selected
+{
+	display: inherit !important;
+}
+
+img:hover
+{
+	border-color: #A3A3A3;
+}
+.voorgrond
+{
+	position: relative;
+	  width: 80% ;
+  margin-left: auto !important;
+  margin-right: auto !important;
+	font-size: 16px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 3px 2px 3px #333333;
+	background-color: #888a85;
+}
+
+
+.nav{
+	text-align:center;
+	margin-left: auto;
+	background-color: gray;
+	height: auto;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 3px 2px 3px #333333;
+
+	
+	text-decoration: none;
+	
+}
+
+.nav li  {
+	font-size: 25px;
+	display:inline;
+	height: 50px !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+}
+
+.nav a {
+	text-decoration: none;
+	color: #c0c0c0;
+	padding: 8px 8px 8px 8px;
+}
+
+.nav a:hover {
+	color: #F90;
+}
+
+.selected
+{
+	display: inherit;
+}
+.category
+{
+	float: right;
+	background-color: #9d9d9d;
+	width: 20%;
+}
+.products
+{
+	width: 80%;
+	background-color: gray ;
+	float: left;
+}
+.productje
+{
+	float: left;
+}
+a:link
+{
+	font-size: 25px;
+	text-decoration: none;
+	color: #c0c0c0;
+	padding: 8px 8px 8px 8px;
+
+}
+
+a:visited
+{
+	font-size: 25px;
+	text-decoration: none;
+	color: #c0c0c0;
+	padding: 8px 8px 8px 8px;
+
+}
+
+.tabelmidden
+{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.product_image {
+	width: 120px;
+	height: 120px;
+}
